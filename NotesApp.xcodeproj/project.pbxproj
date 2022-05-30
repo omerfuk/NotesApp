@@ -15,6 +15,7 @@
 		DED0985C2844F58A0010A2AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED0985A2844F58A0010A2AA /* LaunchScreen.storyboard */; };
 		DED098642844F5E30010A2AA /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED098632844F5E30010A2AA /* NoteViewController.swift */; };
 		DED098662844F5E90010A2AA /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED098652844F5E90010A2AA /* EntryViewController.swift */; };
+		DED0986828450BAE0010A2AA /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0986728450BAE0010A2AA /* UpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DED0985D2844F58A0010A2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DED098632844F5E30010A2AA /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		DED098652844F5E90010A2AA /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		DED0986728450BAE0010A2AA /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				DED098652844F5E90010A2AA /* EntryViewController.swift */,
 				DED098632844F5E30010A2AA /* NoteViewController.swift */,
 				DED098532844F5880010A2AA /* ViewController.swift */,
+				DED0986728450BAE0010A2AA /* UpdateViewController.swift */,
 				DED098552844F5880010A2AA /* Main.storyboard */,
 				DED098582844F58A0010A2AA /* Assets.xcassets */,
 				DED0985A2844F58A0010A2AA /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				DED098542844F5880010A2AA /* ViewController.swift in Sources */,
 				DED098502844F5880010A2AA /* AppDelegate.swift in Sources */,
 				DED098522844F5880010A2AA /* SceneDelegate.swift in Sources */,
+				DED0986828450BAE0010A2AA /* UpdateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

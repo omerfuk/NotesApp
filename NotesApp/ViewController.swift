@@ -75,17 +75,37 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         
+        let model = models[indexPath.row]
+        
         let silAction = UIContextualAction(style: .destructive, title: "Sil") { (contextualAction, view, boolValue) in
                    
                    print("Sil Tıklandı \(self.models[indexPath.row])")
             self.models.remove(at: 0)
             let indexPath = IndexPath(item: 0, section: 0)
             tableView.deleteRows(at: [indexPath], with: .fade)
+            
+            
+            
 
                    
                }
+        
+        let guncelleAction = UIContextualAction(style: .normal, title: "Guncelle") { contextualAction, view, boolValue in
+            print("Güncelle Tıklandı")
+            
+            guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "update") as? UpdateViewController else {
+                return
+            }
+            vc.navigationItem.largeTitleDisplayMode = .never
+            vc.title = "Update"
+            vc.noteTitle = model.title
+            vc.note = model.note
+            
+            self.navigationController?.pushViewController(vc, animated: true)
+            
+        }
                
-               return UISwipeActionsConfiguration(actions: [silAction])
+               return UISwipeActionsConfiguration(actions: [silAction,guncelleAction])
     }
     
     
