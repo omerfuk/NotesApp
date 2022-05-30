@@ -13,6 +13,8 @@
 		DED098572844F5880010A2AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED098552844F5880010A2AA /* Main.storyboard */; };
 		DED098592844F58A0010A2AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED098582844F58A0010A2AA /* Assets.xcassets */; };
 		DED0985C2844F58A0010A2AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED0985A2844F58A0010A2AA /* LaunchScreen.storyboard */; };
+		DED098642844F5E30010A2AA /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED098632844F5E30010A2AA /* NoteViewController.swift */; };
+		DED098662844F5E90010A2AA /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED098652844F5E90010A2AA /* EntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DED098582844F58A0010A2AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DED0985B2844F58A0010A2AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DED0985D2844F58A0010A2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED098632844F5E30010A2AA /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		DED098652844F5E90010A2AA /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				DED0984F2844F5880010A2AA /* AppDelegate.swift */,
 				DED098512844F5880010A2AA /* SceneDelegate.swift */,
+				DED098652844F5E90010A2AA /* EntryViewController.swift */,
+				DED098632844F5E30010A2AA /* NoteViewController.swift */,
 				DED098532844F5880010A2AA /* ViewController.swift */,
 				DED098552844F5880010A2AA /* Main.storyboard */,
 				DED098582844F58A0010A2AA /* Assets.xcassets */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED098642844F5E30010A2AA /* NoteViewController.swift in Sources */,
+				DED098662844F5E90010A2AA /* EntryViewController.swift in Sources */,
 				DED098542844F5880010A2AA /* ViewController.swift in Sources */,
 				DED098502844F5880010A2AA /* AppDelegate.swift in Sources */,
 				DED098522844F5880010A2AA /* SceneDelegate.swift in Sources */,
