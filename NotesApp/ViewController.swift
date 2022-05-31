@@ -4,7 +4,7 @@
 //
 //  Created by Ömer Faruk Kılıçaslan on 30.05.2022.
 //
-
+//Omer Kılıcaslan
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
