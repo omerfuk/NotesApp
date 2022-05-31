@@ -84,10 +84,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let indexPath = IndexPath(item: 0, section: 0)
             tableView.deleteRows(at: [indexPath], with: .fade)
             
-            
-            
-
-                   
+   
                }
         
         let guncelleAction = UIContextualAction(style: .normal, title: "Guncelle") { contextualAction, view, boolValue in
